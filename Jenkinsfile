@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'YOUR_REPO_URL_HERE'
+                git branch: 'main', url: 'https://github.com/anvarsks/spring-boot-demo.git'
             }
         }
 
